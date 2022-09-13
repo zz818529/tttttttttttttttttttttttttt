@@ -84,9 +84,9 @@ async def update(event, repo, ups_rem, ac_br):
     await update_requirements()
     await eor(
         event,
-        "✅ Successfully updated Hêllẞø†!\n\nBot is restarting please wait for a minute.",
+        "✅ Successfully updated WARUSERBOT!\n\nBot is restarting please wait for a minute.",
     )
-    args = [sys.executable, "-m", "hellbot"]
+    args = [sys.executable, "-m", "Warbot"]
     os.execle(sys.executable, *args, os.environ)
     return
 
