@@ -247,9 +247,9 @@ async def upstream(event):
 CmdHelp("updater").add_command(
     "update", None, "Checks if any new update is available."
 ).add_command(
-    "update now", None, "Soft-Update Your Hêllẞø†. Basically if you restart dyno it will go back to previous deploy."
+    "update now", None, "Soft-Update Your WarUserBot. Basically if you restart dyno it will go back to previous deploy."
 ).add_command(
-    "update build", None, "Hard-Update Your Hêllẞø†. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
+    "update build", None, "Hard-Update Your WarUserBot. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
 ).add_info(
     "WARUSERBOT Updater."
 ).add_warning(
