@@ -1,4 +1,4 @@
-# IF YOU ARE HOSTING HELLBOT ON OTHER VPS OR LOCALLY RATHER THAN HEROKU
+# IF YOU ARE HOSTING WARBOT ON OTHER VPS OR LOCALLY RATHER THAN HEROKU
 # THEN DON'T EDIT THIS FILE.
 # GO AND EDIT ex_config.py AND RENAME TO config.py
 # AND FILL THE REQUIRED VARS THERE.
@@ -47,8 +47,8 @@ class Config(object):
     LYRICS_API = os.environ.get("LYRICS_API", None)
     MAX_MESSAGE_SIZE_LIMIT = 4095
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
-    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "Its_HellBot")
-    MY_GROUP = os.environ.get("YOUR_GROUP", "HellBot_Chat")
+    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "WARUSERBOT")
+    MY_GROUP = os.environ.get("YOUR_GROUP", "WARUSERBOTSUPPORT")
     OCR_API = os.environ.get("OCR_API", None)
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
     if PLUGIN_CHANNEL:
@@ -58,7 +58,7 @@ class Config(object):
         PM_LOG_ID = int(PM_LOG_ID)
     PM_PERMIT = os.environ.get("PM_PERMIT", None)
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
-    HELLBOT_SESSION = os.environ.get("HELLBOT_SESSION", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     SESSION_2 = os.environ.get("SESSION_2", None)
     SESSION_3 = os.environ.get("SESSION_3", None)
     SESSION_4 = os.environ.get("SESSION_4", None)
@@ -68,12 +68,12 @@ class Config(object):
     TAG_LOGGER = os.environ.get("TAG_LOGGER", None)
     if TAG_LOGGER:
         TAG_LOGGER = int(TAG_LOGGER)
-    TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ †he Hêllẞø† ]")
+    TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ THE WARUSERBOT ]")
     TEMP_DIR = os.environ.get("TEMP_DIR", None)
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
     THUMB_IMG = os.environ.get("THUMB_IMG", "./HellConfig/resources/pics/hellbot_logo.jpg")
     UNLOAD = list(os.environ.get("UNLOAD", "").split())
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/The-HellBot/HellBot")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/MeAbhish3k/waruserbot")
     UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
     WEATHER_API = os.environ.get("WEATHER_API", None)
 
