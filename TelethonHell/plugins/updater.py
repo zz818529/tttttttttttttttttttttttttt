@@ -15,7 +15,7 @@ HEROKU_API_KEY = Config.HEROKU_API_KEY or None
 Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
-hellbot_info = "https://raw.githubusercontent.com/The-HellBot/Plugins/master/hellbot-info.json"
+hellbot_info = "https://raw.githubusercontent.com/waruserbot/Plugins-T/master/hellbot-info.json"
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
@@ -137,16 +137,16 @@ async def upstream(event):
     _, _, hell_mention = await client_id(event)
     if changelog == "" and not force_update:
         _version, _release, _branch, _author, _auturl = await hell_info(hellbot_info)
-        output_ = f"**◈ Your Bot Version:** `{hell_ver}` \n**◈ Owner:** {hell_mention} \n\n**◈ HellBot Global Version:** `{_version}` \n**◈ Release Date:** `{_release}` \n**◈ Official Repo Branch:** `{_branch}` \n**◈ Update By:** [{_author}]({_auturl})"
+        output_ = f"**◈ Your Bot Version:** `{hell_ver}` \n**◈ Owner:** {hell_mention} \n\n**◈ WaruserBot Global Version:** `{_version}` \n**◈ Release Date:** `{_release}` \n**◈ Official Repo Branch:** `{_branch}` \n**◈ Update By:** [{_author}]({_auturl})"
         if str(_version) != str(hell_ver):
-            output_ += f"\n\n__Do__ `{hl}update build` __to update your HellBot to latest version.__"
+            output_ += f"\n\n__Do__ `{hl}update build` __to update your WaruserBot to latest version.__"
         else:
             output_ += "\n\n__You are already on latest version.__"
         await hell.edit(output_)
         return repo.__del__()
     if not conf and not force_update:
         await print_changelogs(event, ac_br, changelog)
-        return await hell.edit(f"🌚 Do `{hl}update build` to update your **Hêllẞø†** !!")
+        return await hell.edit(f"🌚 Do `{hl}update build` to update your **WARUSERBOT** !!")
 
     if force_update:
         await hell.edit(f"**⥼ Synced Repo ⥽** \n\n__Do__ `{hl}update` __again to start updating ...__")
@@ -174,7 +174,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return repo.__del__()
         _version, _release, _branch, _author, _auturl = await hell_info(hellbot_info)
         await event.edit(
-            f"<b><i>Hêllẞø† Docker Build In Progress !!!</b></i> \n\n<b><i><u>Update Information :</b></i></u> \n<b>• Branch :</b> {_branch} \n<b>• Release Date :</b> {_release} \n<b>• Version :</b> {_version} \n<b>• Author :</b> <a href='{_auturl}'>{_author}</a>",
+            f"<b><i>WARUSERBOT Docker Build In Progress !!!</b></i> \n\n<b><i><u>Update Information :</b></i></u> \n<b>• Branch :</b> {_branch} \n<b>• Release Date :</b> {_release} \n<b>• Version :</b> {_version} \n<b>• Author :</b> <a href='{_auturl}'>{_author}</a>",
             link_preview=False,
             parse_mode="HTML",
         )
@@ -237,7 +237,7 @@ async def upstream(event):
     ups_rem.fetch(ac_br)
     _version, _release, _branch, _author, _auturl = await hell_info(hellbot_info)
     await event.edit(
-        f"<b><i>Hêllẞø† Docker Build In Progress !!</b></i> \n\n<b><i><u>Update Information :</b></i></u> \n<b>• Branch :</b> {_branch} \n<b>• Release Date :</b> {_release} \n<b>• Version :</b> {_version} \n<b>• Author :</b> <a href='{_auturl}'>{_author}</a>",
+        f"<b><i>WARUSERBOT Docker Build In Progress !!</b></i> \n\n<b><i><u>Update Information :</b></i></u> \n<b>• Branch :</b> {_branch} \n<b>• Release Date :</b> {_release} \n<b>• Version :</b> {_version} \n<b>• Author :</b> <a href='{_auturl}'>{_author}</a>",
         link_preview=False,
         parse_mode="HTML",
     )
