@@ -6,8 +6,8 @@ from telethon.sessions import StringSession
 
 from HellConfig import Config
 
-if Config.HELLBOT_SESSION:
-    session = StringSession(str(Config.HELLBOT_SESSION))
+if Config.STRING_SESSION:
+    session = StringSession(str(Config.STRING_SESSION))
 else:
     session = "warbot"
 
