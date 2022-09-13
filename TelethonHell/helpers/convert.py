@@ -111,11 +111,11 @@ async def take_ss(video_file: str, duration: int, path: str = "") -> Optional[st
 
 async def tgs_to_gif(file, tgs=False, video=False):
     if tgs:
-        cmd = f"lottie_convert.py '{file}' 'hellbot.gif'"
+        cmd = f"lottie_convert.py '{file}' 'warbot.gif'"
     elif video:
-        cmd = f"ffmpeg -i '{file}' -c copy 'hellbot.gif'"
+        cmd = f"ffmpeg -i '{file}' -c copy 'warbot.gif'"
     await runcmd(cmd)
-    return 'hellbot.gif'
+    return 'warbot.gif'
 
 
 # deal with it...
@@ -178,4 +178,4 @@ async def VSticker(event, file):
     return "VideoSticker.webm"
 
 
-# hellbot
+
