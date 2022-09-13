@@ -3,7 +3,7 @@
 # Plugin link -> https://github.com/UsergeTeam/Userge-Plugins/blob/master/plugins/glitch.py
 # Info -> Glitch plugin for Userge made by @Krishna_Singhal in Pyrogram.
 
-# Ported from Pyrogram to Telethon by @ForGo10God for †hê Hêllẞø†
+# Ported from Pyrogram to Telethon by 
 
 # USE WITH CREDITS !!
 ##################################
