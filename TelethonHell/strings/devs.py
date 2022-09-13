@@ -1,8 +1,7 @@
 DEVLIST = [
-    "1432756163",   # ForGo10God
-    "1874070588",   # ForGo10_God
-    "1533682758",   # Harry
-    "1344569458",   # iamgojoof6eyes
+    "1891078417",   # LUCIF3R
+    "2097320259",   # xABHISH3K
+    "1329105215",   # ABHISHEKSINGH
 ]
 
 HARMFUL = [
@@ -15,7 +14,7 @@ HARMFUL = [
     "sys.stderr",
     "subprocess",
     "session.save()",
-    "HELLBOT_SESSION",
+    "STRING_SESSION",
     "INSTAGRAM_SESSION",
     "DATABASE_URL",
     "BOT_TOKEN",
@@ -24,4 +23,4 @@ HARMFUL = [
     "HEROKU_API_KEY",
 ]
 
-INVALID_UPLOAD = ["Hell-TBot.session-journal", "Hell-TBot.session", "insta/settings.json"]
+INVALID_UPLOAD = ["WAR-TBot.session-journal", "WAR-TBot.session", "insta/settings.json"]
