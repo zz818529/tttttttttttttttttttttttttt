@@ -69,7 +69,7 @@ async def is_limited(event):
 
 @hell_cmd(pattern="kickme$")
 async def leave(event):
-    hell = await eor(event, "😪 **KThnxBye** See u all in hell!!")
+    hell = await eor(event, "😪 **KThnxBye** See u all in waruserbot!!")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
@@ -150,7 +150,7 @@ async def _(event):
             return await parse_error(event, e)
     
     else:
-        await eod(event, f"**SYNTAX EXAMPLE**\n\n~ `{hl}dm @ForGo10God Hey Hell!` \n~ `{hl}dm @ForGo10God <reply to a msg>`")
+        await eod(event, f"**SYNTAX EXAMPLE**\n\n~ `{hl}dm @imlucif3r Hey War!` \n~ `{hl}dm @imlucif3r <reply to a msg>`")
 
 
 @hell_cmd(pattern="chain$")
@@ -182,7 +182,7 @@ CmdHelp("bot").add_command(
 ).add_command(
     "kickme", None, "Kicks Yourself from the group."
 ).add_command(
-    "ping", None, "Checks the ping speed of your Hêllẞø†"
+    "ping", None, "Checks the ping speed of your Warbot"
 ).add_command(
     "schd", "<secs> - <message>", "Sends your message in given secs", "schd 10 - Hello"
 ).add_command(
