@@ -9,7 +9,7 @@ from HellConfig import Config
 if Config.HELLBOT_SESSION:
     session = StringSession(str(Config.HELLBOT_SESSION))
 else:
-    session = "hellbot"
+    session = "warbot"
 
 try:
     Hell = TelegramClient(
@@ -21,7 +21,7 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    print(f"HELLBOT_SESSION - {e}")
+    print(f"STRING_SESSION - {e}")
     sys.exit()
 
 
@@ -82,7 +82,7 @@ else:
 
 
 HellBot = TelegramClient(
-    session="Hell-TBot",
+    session="WAR-TBot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     connection=ConnectionTcpAbridged,
