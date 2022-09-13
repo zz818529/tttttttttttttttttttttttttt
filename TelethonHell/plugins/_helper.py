@@ -6,9 +6,9 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from . import *
 
 msg = f"""
-**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**
-  •        [📑 Repo 📑](https://github.com/The-HellBot/HellBot)
-  •        [HellBot Network](https://t.me/hellbot_network)
+**⚡LEGENDRY AF WARUSERBOT⚡**
+  •        [📑 Repo 📑](https://github.com/MeAbhish3k/WARUSERBOT)
+  •        [WarBot Network](https://t.me/wrrlegend)
   •  ©️ {hell_channel} ™
 """
 botname = Config.BOT_USERNAME
