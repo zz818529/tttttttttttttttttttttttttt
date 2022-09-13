@@ -24,7 +24,7 @@ async def restart(event):
 
 @hell_cmd(pattern="restart$")
 async def re(hell):
-    event = await eor(hell, "Restarting Hêllẞø† ...")
+    event = await eor(hell, "Restarting WarUserBot ...")
     try:
         await restart(event)
     except CancelledError:
@@ -35,13 +35,13 @@ async def re(hell):
 
 @hell_cmd(pattern="reload$")
 async def rel(event):
-    await eor(event, "**Reloaded HellBot!** \n\n__This might take a minute.__")
+    await eor(event, "**Reloaded WarBot!** \n\n__This might take a minute.__")
     await reload_hellbot()
 
 
 @hell_cmd(pattern="shutdown$")
 async def down(event):
-    await eor(event, "**[ ⚠️ ]** \n**Hêllẞø† is now turned off. Manually turn it on to start again.**")
+    await eor(event, "**[ ⚠️ ]** \n**WarUserBot is now turned off. Manually turn it on to start again.**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -111,13 +111,13 @@ async def dell(event):
 
 
 CmdHelp("power").add_command(
-    "restart", None, "Restarts your userbot. Redtarting Bot may result in better functioning of bot when its laggy"
+    "restart", None, "Restarts your Waruserbot. Redtarting Bot may result in better functioning of bot when its laggy"
 ).add_command(
     "reload", None, "Reloads the bot DB and SQL variables without deleting any external plugins if installed."
 ).add_command(
-    "shutdown", None, "Turns off Hêllẞø†. Userbot will stop working unless you manually turn it on."
+    "shutdown", None, "Turns off WarBot. Userbot will stop working unless you manually turn it on."
 ).add_command(
-    "svar", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
+    "svar", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/d871194e87181a0c0e5f2.jpg"
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
