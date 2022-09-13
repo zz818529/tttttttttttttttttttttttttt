@@ -84,7 +84,7 @@ async def update(event, repo, ups_rem, ac_br):
     await update_requirements()
     await eor(
         event,
-        "✅ Successfully updated WARUSERBOT!\n\nBot is restarting please wait for a minute.",
+        "✅ Successfully updated waruserbot!\n\nBot is restarting please wait for a minute.",
     )
     args = [sys.executable, "-m", "Warbot"]
     os.execle(sys.executable, *args, os.environ)
@@ -196,7 +196,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         build_status = app.builds(order_by="created_at", sort="desc")[0]
         if build_status.status == "failed":
            return await eod(event, "__Build Failed !!__")
-        await event.edit(f"**Your Hêllẞø† Is UpToDate**\n\n**Version :**  __{hell_ver}__\n**Oɯɳҽɾ :**  {hell_mention}")
+        await event.edit(f"**Your WarUserBot Is UpToDate**\n\n**Version :**  __{hell_ver}__\n**Oɯɳҽɾ :**  {hell_mention}")
     else:
         await parse_error(event, "`HEROKU_API_KEY` __is not configured.__")
     return
