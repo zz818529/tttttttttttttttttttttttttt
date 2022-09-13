@@ -18,7 +18,7 @@ class Development(Config):
 
     DB_URI = "Your value"  # A postgresql database url from elephantsql
 
-    HELLBOT_SESSION = "Your value"  # telethon or pyrogram string according to BOT_LIBRARY
+    STRING_SESSION = "Your value"  # telethon or pyrogram string according to BOT_LIBRARY
 
     HANDLER = "."  # Custom Command Handler
 
@@ -26,4 +26,4 @@ class Development(Config):
 
 
 # end of required config
-# hellbot
+# 
