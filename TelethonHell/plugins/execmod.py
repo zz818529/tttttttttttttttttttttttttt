@@ -164,7 +164,7 @@ async def _(event):
     )
     stdout, stderr = await process.communicate()
     o = stdout.decode()
-    OUTPUT = f"**Hêllẞø†'s Environment Module :**\n\n{o}"
+    OUTPUT = f"**WarUserBot's Environment Module :**\n\n{o}"
     if len(OUTPUT) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "env.text"
@@ -196,7 +196,7 @@ async def _(event):
     )
     stdout, stderr = await process.communicate()
     o = stdout.decode()
-    OUTPUT = f"**Hêllẞø†'s Server Speed Calculated :**\n\n{o}"
+    OUTPUT = f"**WarUserBot's Server Speed Calculated :**\n\n{o}"
     if len(OUTPUT) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "env.text"
@@ -222,9 +222,9 @@ CmdHelp("execmod").add_command(
 ).add_command(
     "date", None, "Shows current date and time"
 ).add_command(
-    "env", None, "Shows Environment veriables of your HellBot"
+    "env", None, "Shows Environment veriables of your WarUserBot"
 ).add_command(
-    "speed", None, "Shows server speed of your HellBot"
+    "speed", None, "Shows server speed of your WarUserBot"
 ).add_info(
     "Exec Modules."
 ).add_warning(
