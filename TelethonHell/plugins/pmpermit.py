@@ -263,7 +263,7 @@ CmdHelp("pm_permit").add_command(
 ).add_command(
     "unblock", "<in pm>/<reply>", "Unblocks the mentioned user."
 ).add_command(
-    "listapproved", None, "Sends the list of all users approved by Hêllẞø†"
+    "listapproved", None, "Sends the list of all users approved by WarUserBot"
 ).add_info(
     "PM SECURITY"
 ).add_warning(
