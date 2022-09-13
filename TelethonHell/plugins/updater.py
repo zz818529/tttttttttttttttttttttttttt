@@ -251,7 +251,7 @@ CmdHelp("updater").add_command(
 ).add_command(
     "update build", None, "Hard-Update Your Hêllẞø†. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
 ).add_info(
-    "Hêllẞø† Updater."
+    "WARUSERBOT Updater."
 ).add_warning(
     "✅ Harmless Module."
 ).add()
