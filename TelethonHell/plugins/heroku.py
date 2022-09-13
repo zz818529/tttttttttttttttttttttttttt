@@ -29,7 +29,7 @@ async def variable(hell):
     heroku_var = app.config()
     if exe == "get":
         event = await eor(hell, "Getting Variable Info...")
-        cap = "Logger me chala jaa bsdk."
+        cap = "CHECK LOGGER."
         capn = "Saved in LOGGER_ID !!"
         try:
             xvar = hell.pattern_match.group(2).split()[0]
@@ -39,7 +39,7 @@ async def variable(hell):
                     event,
                     f"This is a SQL based variable. Do `{hl}gvar {variable}` to get variable info.",
                 )
-            if variable in ("HELLBOT_SESSION", "BOT_TOKEN", "HEROKU_API_KEY", "INSTAGRAM_SESSION"):
+            if variable in ("STRING_SESSION", "BOT_TOKEN", "HEROKU_API_KEY", "INSTAGRAM_SESSION"):
                 if Config.ABUSE == "ON":
                     await event.client.send_file(hell.chat_id, cjb, caption=cap)
                     await event.delete()
