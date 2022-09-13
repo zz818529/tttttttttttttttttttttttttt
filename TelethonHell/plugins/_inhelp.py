@@ -438,7 +438,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         else:
             return await event.answer(
-                "You are not authorized to use me! \n© Hêllẞø† ™",
+                "You are not authorized to use me! \n© WarUserBot ™",
                 cache_time=0,
                 alert=True,
             )
