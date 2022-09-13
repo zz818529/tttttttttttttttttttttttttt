@@ -71,7 +71,7 @@ async def git_commit(file_name, path, branch, hellbot):
         try:
             repo.create_file(
                 path,
-                f"Uploaded file {file_name} by Hêllẞø†",
+                f"Uploaded file {file_name} by WarUserBot",
                 commit_data,
                 branch=branch,
             )
