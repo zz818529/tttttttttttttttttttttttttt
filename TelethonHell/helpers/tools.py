@@ -30,7 +30,7 @@ def iadmin():
             if myperm.is_creator:
                 await func(event)
             else:
-                await event.edit("I'm not admin. Chutíya sala.")
+                await event.edit("I'm not admin.")
 
         return wrapper
 
