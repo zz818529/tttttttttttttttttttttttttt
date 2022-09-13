@@ -343,7 +343,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     file=help_pic,
                 )
         else:
-            reply_pop_up_alert = "You are not authorized to use me! \n© Hêllẞø† ™"
+            reply_pop_up_alert = "You are not authorized to use me! \n© WarUserBot ™"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(callbackquery.CallbackQuery(data=compile(b"close")))
