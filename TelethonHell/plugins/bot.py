@@ -12,11 +12,11 @@ from TelethonHell.DB.gvar_sql import gvarstat
 from . import *
 
 ping_txt = """
-<b><i>╰•★★  ℘ơŋɠ ★★•╯</b></i>
+<b><i> ◦•●◉✿ᴘᴏɴɢ✿◉●•◦ </b></i>
 
-    ⚘  <i>ʂ℘ɛɛɖ :</i> <code>{}</code>
-    ⚘  <i>ų℘ɬıɱɛ :</i> <code>{}</code>
-    ⚘  <i>ơῳŋɛཞ :</i> {}
+    ⚘  <i>sᴘᴇᴇᴅ :</i> <code>{}</code>
+    ⚘  <i>ᴜᴘᴛɪᴍᴇ :</i> <code>{}</code>
+    ⚘  <i>ᴏᴡɴᴇʀ :</i> {}
 """
 
 
