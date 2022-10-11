@@ -12,14 +12,15 @@ from . import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>✨dark ᴏɴʟɪɴᴇ✨</b></i>  
+<b><i>★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★</b></i>  
 <i><b> » ᴏᴡɴᴇʀ </i></b> :  <a href='tg://user?id={}'>{}</a> 
  <b>» ᴛᴇʟᴇᴛʜᴏɴ :</b> <i>{}</i>
  <b>» Dark :</b> <i>{}</i>
  <b>» sᴜᴅᴏ :</b> <i>{}</i>
  <b>» ᴜᴘᴛɪᴍᴇ :</b> <i>{}</i>
  <b>» ᴘɪɴɢ :</b> <i>{}</i>
-<b><i>❤️‍🔥 <a href='https://t.me/itzyournil'>[ DARK]</a> ❤️‍🔥</i></b>
+<b><i>❤️‍🔥 <a href='https://t.me/itzyournil'>[🎈😎  ⓓ€ｖ€𝐋𝐨ẸＲ  💘⛵]</a> ❤️‍🔥</i></b>
+<b><i>❤️‍🔥 <a href='https://t.me/moon_knight69'>[ ♗🎄  𝕕ᗴνⓔŁᗝє𝐑  💜💢]</a> ❤️‍🔥</i></b>
 """
 
 msg = """{}\n
@@ -67,7 +68,7 @@ async def up(event):
 async def hell_a(event):
     ForGo10God, HELL_USER, hell_mention = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b> DARK is Online ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b> ★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★ ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
