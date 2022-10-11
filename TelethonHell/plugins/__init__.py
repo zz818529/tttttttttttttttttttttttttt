@@ -10,7 +10,6 @@ from TelethonHell.strings import *
 from TelethonHell.utils import *
 from TelethonHell.version import __hellver__, __telever__
 
-                         
 hell_logo = "./HellConfig/resources/pics/hellbot_logo.jpg"
 cjb = "./HellConfig/resources/pics/cjb.jpg"
 restlo = "./HellConfig/resources/pics/rest.jpeg"
@@ -39,17 +38,17 @@ else:
     abuse_m = "Disabled"
 
 
-my_channel = Config.MY_CHANNEL or "★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★"
-my_group = Config.MY_GROUP or "★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★"
+my_channel = Config.MY_CHANNEL or "waruserbot"
+my_group = Config.MY_GROUP or "waruserbotsupport"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
-chnl_link = "https://t.me/itzyournil"
-hell_channel = f"[★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★]({chnl_link})"
-grp_link = "https://t.me/itzyournil"
-hell_grp = f"[★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★]({grp_link})"
+chnl_link = "https://t.me/waruserbot"
+hell_channel = f"[The Waruserbot]({chnl_link})"
+grp_link = "https://t.me/waruserBotsupport"
+hell_grp = f"[WarUserBotSupport Group]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
   {mention} :  To mention the user
@@ -66,5 +65,4 @@ WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attract
   {my_mention} : To mention myself
   {my_username} : To use my username
 """
-
 
