@@ -15,7 +15,7 @@ ALIVE_TEMP = """
 <b><i>★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★</b></i>  
 <i><b> » ᴏᴡɴᴇʀ </i></b> :  <a href='tg://user?id={}'>{}</a> 
  <b>» ᴛᴇʟᴇᴛʜᴏɴ :</b> <i>{}</i>
- <b>» Dark :</b> <i>{}</i>
+ <b>» ★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★:</b> <i>{}</i>
  <b>» sᴜᴅᴏ :</b> <i>{}</i>
  <b>» ᴜᴘᴛɪᴍᴇ :</b> <i>{}</i>
  <b>» ᴘɪɴɢ :</b> <i>{}</i>
@@ -64,7 +64,7 @@ async def up(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="war$")
+@hell_cmd(pattern="moon$")
 async def hell_a(event):
     ForGo10God, HELL_USER, hell_mention = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
@@ -85,7 +85,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the Default Alive Message"
 ).add_command(
-    "war", None, "Shows Inline Alive Menu with more details."
+    "moon", None, "Shows Inline Alive Menu with more details."
 ).add_warning(
     "✅ Harmless Module"
 ).add()
