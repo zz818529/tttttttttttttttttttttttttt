@@ -360,9 +360,7 @@ async def get_anilist(qdb, page):
         return [f"No results Found"]
     data = result["data"]["Page"]["media"][0]
     # pylint: disable=possibly-unused-variable
-    chnl = "[THE 
-
-](https://t.me/itzyournil)"
+    chnl = "[](https://t.me/itzyournil)"
     idm = data.get("id")
     idmal = data.get("idMal")
     romaji = data["title"]["romaji"]
@@ -435,7 +433,7 @@ async def get_anilist(qdb, page):
     banner_ = requests.get(banner)
     open(f"{idm}.jpg", "wb").write(banner_.content)
     title_img = f"{idm}.jpg"
-    logo = "https://telegra.ph/file/d871194e87181a0c0e5f2.jpg"
+    logo = "https://telegra.ph/file/e9a84eed3b950f338a833.jpg"
     descr = ""
     descr += f"<img src='{banner}'/> \n"
     descr += data["description"]
@@ -482,7 +480,7 @@ async def get_manga(qdb, page):
         name = f"""« {c_flag} » **{romaji}**
         {native}"""
     banner = f"https://img.anili.st/media/{idm}"
-    logo = "https://telegra.ph/file/d871194e87181a0c0e5f2.jpg"
+    logo = "https://telegra.ph/file/e9a84eed3b950f338a833.jpg"
     descr = ""
     descr += f"<img src='{banner}'/> \n"
     descr += synopsis
