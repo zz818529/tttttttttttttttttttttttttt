@@ -360,7 +360,9 @@ async def get_anilist(qdb, page):
         return [f"No results Found"]
     data = result["data"]["Page"]["media"][0]
     # pylint: disable=possibly-unused-variable
-    chnl = "[THE WARUSERBOT](https://t.me/WARUSERBOT)"
+    chnl = "[THE 
+
+](https://t.me/itzyournil)"
     idm = data.get("id")
     idmal = data.get("idMal")
     romaji = data["title"]["romaji"]
@@ -495,7 +497,7 @@ async def get_manga(qdb, page):
     finals_ += f"**✘ FORMAT :** `{format_}`\n"
     finals_ += f"**✘ SOURCE :** `{source}`\n"
     finals_ += f"**✘ DESCRIPTION :** [Synopsis]({paste})\n\n"
-    finals_ += f"\n       **<\>** [THE WARUSERBOT](https://t.me/WARUSERBOT)"
+    finals_ += f"\n       **<\>** [THE ](https://t.me/itzyournil))"
     banner_ = requests.get(banner)
     open(f"{idm}.jpg", "wb").write(banner_.content)
     pic = f"{idm}.jpg"
@@ -534,7 +536,7 @@ async def get_character(query, page):
 **✘ DETAILS :** [More Info...]({paste})
 
 
-        **<\>** [THE WARUSERBOT](https://WARUSERBOT)
+        **<\>** [THE](https://itzyournil))
 """
     total = result["data"]["Page"]["pageInfo"]["total"]
     return img, [cap_text, total], [id_]
