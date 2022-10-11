@@ -12,6 +12,7 @@ from TelethonHell.version import __hellver__, __telever__
 from datetime import datetime
 from aiohttp.client_exceptions import InvalidURL
 from telethon.errors.rpcerrorlist import MessageNotModifiedError
+get_help' from 'TelethonHell.plugins'
 
                          
 hell_logo = "./HellConfig/resources/pics/hellbot_logo.jpg"
