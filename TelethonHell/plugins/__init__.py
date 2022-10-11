@@ -10,6 +10,12 @@ from TelethonHell.strings import *
 from TelethonHell.utils import *
 from TelethonHell.version import __hellver__, __telever__
 from datetime import datetime
+from aiohttp.client_exceptions import InvalidURL
+from telethon.errors.rpcerrorlist import MessageNotModifiedError
+
+from pyUltroid.fns.helper import time_formatter
+from pyUltroid.fns.tools import get_chat_and_msgid, set_attributes
+
                          
 hell_logo = "./HellConfig/resources/pics/hellbot_logo.jpg"
 cjb = "./HellConfig/resources/pics/cjb.jpg"
