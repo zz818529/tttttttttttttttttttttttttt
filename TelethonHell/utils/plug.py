@@ -75,7 +75,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["TelethonHell.plugins." + shortname] = mod
-        LOGS.info("⚡ WarUserBot ⚡ - Successfully Imported " + shortname)
+        LOGS.info("★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★  - Successfully Imported " + shortname)
 
 
 # remove plugins
