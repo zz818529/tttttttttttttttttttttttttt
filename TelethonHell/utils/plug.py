@@ -99,8 +99,8 @@ def remove_plugin(shortname):
 
 async def plug_channel(client, channel):
     if channel:
-        LOGS.info("⚡ WarUserBot ⚡ - PLUGIN CHANNEL DETECTED.")
-        LOGS.info("⚡ WarUserBot ⚡ - Starting to load extra plugins.")
+        LOGS.info("★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★   - PLUGIN CHANNEL DETECTED.")
+        LOGS.info("★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★   - Starting to load extra plugins.")
         plugs = await client.get_messages(channel, None, filter=InputMessagesFilterDocument)
         total = int(plugs.total)
         for plugins in range(total):
