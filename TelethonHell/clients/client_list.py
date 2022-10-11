@@ -58,5 +58,5 @@ async def client_id(event, botid=None):
         uid = get_peer_id(client)
         itzyournil = uid
         HELL_USER = client.first_name
-        hell_mention = f"[{HELL_USER}](tg://user?id={})"
+        hell_mention = f"[{HELL_USER}](tg://user?id={itzyournil})"
     return itzyournil, HELL_USER, hell_mention
