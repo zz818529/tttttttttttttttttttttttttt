@@ -84,14 +84,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo :</b></i> <code>{is_sudo}</code>
 <b><i>Library :</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/itzyournil'>★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★  </a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/darkmoonuserbot'>★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★  </a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★  ", "https://t.me/itzyournil")]],
+        buttons=[[Button.url("★★ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ ★★  ", "https://t.me/darkmoonuserbot")]],
     )
 
 
