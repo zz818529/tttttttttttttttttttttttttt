@@ -9,7 +9,7 @@ from telethon.sync import TelegramClient
 
 def main():
     print("T E A M    W A R B O T   ! !")
-    print("Hello!! Welcome to WarBot Session Generator\n")
+    print("Hello!! Welcome to ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ Session Generator\n")
     print("Human Verification Required !!")
     while True:
         verify = int(randint(1, 50))
