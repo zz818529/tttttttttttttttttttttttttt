@@ -19,8 +19,11 @@ ALIVE_TEMP = """
  <b>» sᴜᴅᴏ :</b> <i>{}</i>
  <b>» ᴜᴘᴛɪᴍᴇ :</b> <i>{}</i>
  <b>» ᴘɪɴɢ :</b> <i>{}</i>
-<b><i>❤️‍🔥 <a href='https://t.me/itzyournil'>[🎈😎  ⓓ€ｖ€𝐋𝐨ẸＲ  💘⛵]</a> ❤️‍🔥</i></b>
+<b><i>❤️‍🔥 <a href='https://t.me/itzyournil'>[🎈★彡[ᴅᴇᴠᴇʟᴏᴘᴇʀ]彡★ 💘]</a> ❤️‍🔥</i></b>
+
 <b><i>❤️‍🔥 <a href='https://t.me/moon_knight69'>[ ♗🎄  𝕕ᗴνⓔŁᗝє𝐑  💜💢]</a> ❤️‍🔥</i></b>
+<b><i>❤️‍🔥 <a href='https://t.me/saaimstar'>[ ♞ 𝐝έ𝐕Ẹｌ𝓞𝐏є𝐫  ☮✌]</a> ❤️‍🔥</i></b>
+
 """
 
 msg = """{}\n
