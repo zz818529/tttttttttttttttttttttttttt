@@ -12,7 +12,7 @@ from TelethonHell.utils import (join_it, load_module,
 from TelethonHell.version import __hellver__
 
 # Global Variables #
-HELL_PIC = "https://telegra.ph/file/d871194e87181a0c0e5f2.jpg"
+HELL_PIC = "https://telegra.ph/file/e9a84eed3b950f338a833.jpg"
 
 
 # Client Starter
@@ -68,12 +68,12 @@ async def start_hellbot():
         C5 = await hells(Config.SESSION_5, H5, "SESSION_5")
         await tbot.start()
         total = C1 + C2 + C3 + C4 + C5
-        LOGS.info("••• WaruserBot Startup Completed •••")
+        LOGS.info("••• ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ Startup Completed •••")
         LOGS.info("••• Starting to load Plugins •••")
         await plug_load("TelethonHell/plugins/*.py")
         await plug_channel(bot, Config.PLUGIN_CHANNEL)
-        LOGS.info("⚡ Your WarUserBot Is Now Working ⚡")
-        LOGS.info("Head to @waruserBot for Updates. Also join chat group to get help regarding WarUserBot.")
+        LOGS.info("⚡ Your ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ Is Now Working ⚡")
+        LOGS.info("Head to ᴅᴀʀᴋ ᴍᴏᴏɴ ᴜꜱᴇʀʙᴏᴛ for Updates. Also join chat group to get help regarding WarUserBot.")
         LOGS.info(f"» Total Clients = {str(total)} «")
         await hell_is_on(total)
     except Exception as e:
